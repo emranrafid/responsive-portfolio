@@ -232,3 +232,26 @@ margin-right: 25px;
 .contact-button:hover{
 color: white;
 }
+@media screen and (max-width:576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+    #section-des-pad {
+        padding: 15px;
+    }
+    .resume-container-col{
+        flex-direction: column;
+        padding: 15px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 10px;
+        /* align-items: center; */
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .Contact{
+        width: 80%;
+    }
+}
